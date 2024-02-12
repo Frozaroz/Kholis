@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perkenalan dengan Animasi</title>
+    <style>
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: -200px; /* Mulai dari luar layar sebelah kiri */
+            animation: slideRight 4s linear infinite; /* Animasi gerakan dari kiri ke kanan */
+        }
+
+        @keyframes slideRight {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Halo, nama saya Muhamad Arifudin Kholisin.</h1>
+    <p>Saya lahir di Sidoarjo, pada tanggal 26-04-2004.</p>
+    <p>Saat ini, saya tinggal di Surabaya.</p>
+</body>
+</html>
